@@ -1,0 +1,36 @@
+.logo {
+    text-align: center;
+}
+
+.logo img {
+    transform: scale(1, 1);
+    transition: all 0.5s ease-out;
+}
+
+.logo img:hover {
+    transform: scale(1.1, 1.1);
+}
+
+.nav {
+    text-align: center;
+}
+
+.content {
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.sidebar {
+    position: fixed;
+    top: 290px;
+    left: 50px;
+}
+
+.sidebar ul {
+    list-style: none;
+}
+
+.page {
+    padding-top: 20px;
+    text-align: center;
+}
