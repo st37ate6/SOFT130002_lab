@@ -1,0 +1,129 @@
+.header {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+    text-align: center;
+}
+
+.nav {
+    overflow: hidden;
+    height: 150px;
+    border: 10cm;
+    margin-left: 250px;
+    margin-right: 250px;
+    padding-bottom: 0cm;
+    margin-bottom: 0cm;
+    font-family: cursive;
+}
+
+.nav1 {
+    float: left;
+}
+
+.nav1 img {
+    transform: scale(1, 1);
+    transition: all 0.5s ease-out;
+}
+
+.nav1 img:hover {
+    transform: scale(1.1, 1.1);
+}
+
+.nav2 {
+    float: right;
+}
+
+.nav2 img {
+    transform: scale(1, 1);
+    transition: all 0.5s ease-out;
+}
+
+.nav2 img:hover {
+    transform: scale(1.1, 1.1);
+}
+
+.nav2 li {
+    list-style: none;
+}
+
+.nav2 li ul {
+    background: white;
+    padding: 0 20px;
+    display: none;
+    list-style: none;
+    position: absolute;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    padding: 0;
+}
+
+.nav2link:link {
+    color: #888888;
+    text-decoration: none;
+}
+
+.nav2link:visited {
+    color: #888888;
+    text-decoration: underline;
+}
+
+.nav2link:hover {
+    font-size: 17;
+    color: rgb(63, 63, 71);
+    text-decoration: underline;
+}
+
+.nav2link:active {
+    color: #FF00FF;
+    text-decoration: underline;
+}
+
+.nav2 li:hover>ul {
+    display: block;
+}
+
+.functionbn {
+    position: fixed;
+    right: 85px;
+    top: 80%;
+}
+
+.functionbn img {
+    transform: scale(1, 1);
+    transition: all 0.5s ease-out;
+}
+
+.functionbn img:hover {
+    transform: scale(1.1, 1.1);
+}
+
+.content {
+    padding-top: 50px;
+    padding-left: 315px;
+    padding-right: 250px;
+    display: grid;
+    grid-template: "t t p" "a b c" "d e f";
+    grid-column-gap: 40px;
+    grid-row-gap: 50px;
+    font-family: cursive;
+}
+
+.content1pic {
+    grid-area: t;
+}
+
+.content1 {
+    font-size: 20px;
+    font-weight: bolder;
+    padding-top: 120px;
+    grid-area: p;
+}
+
+
+/* 修改部分 */
+
+.footer {
+    padding-top: 100px;
+    text-align: center;
+    font-family: cursive;
+}
