@@ -3,7 +3,7 @@
 19302010086刘亘恺  
 =
 github地址：<https://github.com/st37ate6/SOFT130002_lab>  
-github pages地址：<>
+github pages地址：<https://st37ate6.github.io/SOFT130002_lab/>
 ***
 项目完成情况:
 -  
